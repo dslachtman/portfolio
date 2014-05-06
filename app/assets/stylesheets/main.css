@@ -1,10 +1,10 @@
 h1{
 	font-family: 'bebas';
-	font-size: 5em;
+	font-size: 6em;
 	text-align: center;
 	margin-bottom: 1em;
 	margin: 0 auto;
-	margin-top: 1em;
+	
 	
 }
 
@@ -13,11 +13,18 @@ h2{
 	font-size: 1.5em;
 }
 
+#background{
+	z-index: -1;
+	position: fixed;
+}
+
 #menu{
 	/*display: inline;*/
 	max-width: 100em;
-	margin: 7em auto;
+	margin: 1em auto;
 	text-align: center;
+	margin-bottom: 2em;
+	/*position: fixed;*/
 
 
 }
@@ -33,10 +40,10 @@ h2{
 }
 
 #second{
-	margin: 5em auto;
+	margin: 0 auto;
 	
 }
 
 #second .item{
-	margin: 4em;
+	margin: 0 3em;
 }
