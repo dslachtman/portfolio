@@ -53,3 +53,47 @@ h2{
 	text-align: center;
 
 }
+
+.project{
+	text-align: center;
+	margin: 3em auto;
+}
+
+.project h2{
+	margin-top: 0em;
+}
+
+.home{
+	max-height: 1em;
+}
+.home a{
+	text-decoration: none;
+
+}
+.home a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.home img{
+	z-index: -1;
+	position: fixed;
+}
+
+.home h2{
+	padding-left: 2em;
+	padding-top: 1.5em;
+	position: fixed;
+}
+
+.vect{
+	/*max-width: 30em;*/
+	/*display: inline-block;*/
+	margin: 3em auto;
+	text-align: center;
+}
+
+#gallery{
+	max-width: 200em;
+	padding: 5em;
+}
