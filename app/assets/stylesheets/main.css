@@ -13,6 +13,11 @@ h2{
 	font-size: 1.5em;
 }
 
+h3{
+	text-align: center;
+	font-family: 'bebas';
+}
+
 #background{
 	z-index: -1;
 	position: fixed;
@@ -95,6 +100,6 @@ h2{
 
 #gallery{
 	max-width: 200em;
-	padding: 5em 10em;
+	padding: 2em 10em;
 	text-align: center;
 }
