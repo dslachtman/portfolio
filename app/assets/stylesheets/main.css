@@ -88,12 +88,13 @@ h2{
 
 .vect{
 	/*max-width: 30em;*/
-	/*display: inline-block;*/
-	margin: 3em auto;
+	display: inline-block;
+	margin: 1em;
 	text-align: center;
 }
 
 #gallery{
 	max-width: 200em;
 	padding: 5em;
+	text-align: center;
 }
