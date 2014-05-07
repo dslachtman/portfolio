@@ -59,9 +59,15 @@ h3{
 
 }
 
+#project_list{
+	/*padding: 5em;*/
+	text-align: center;
+}
+
 .project{
 	text-align: center;
 	margin: 3em auto;
+	
 }
 
 .project h2{
