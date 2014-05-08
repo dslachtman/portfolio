@@ -31,6 +31,8 @@ gem 'sass'
 
 ruby '2.1.0'
 
+gem 'unicorn'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
