@@ -29,8 +29,11 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'sass'
 
+<<<<<<< HEAD
 gem 'unicorn'
 
+=======
+>>>>>>> master
 ruby '2.1.0'
 
 group :doc do
