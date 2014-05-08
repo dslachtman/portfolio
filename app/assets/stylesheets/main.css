@@ -14,7 +14,7 @@ h2{
 }
 
 h3{
-	text-align: center;
+	/*text-align: center;*/
 	font-family: 'bebas';
 }
 
@@ -23,6 +23,21 @@ h4{
 	font-size: .75em;
 }
 
+#background{
+	z-index: -1;
+}
+
+#container{
+	width: 30em;
+	margin: 2em auto;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#container img{
+	border-radius: 50em;
+	margin: .5em;
+}
 .title{
 	text-align: center;
 }
@@ -112,12 +127,15 @@ h4{
 }
 .home a{
 	text-decoration: none;
+	color: black;
 
 }
-.home a:visited{
+.home a:visited, a:hover, a:active{
 	text-decoration: none;
 	color: black;
 }
+
+
 
 .home img{
 	z-index: -1;
@@ -128,6 +146,37 @@ h4{
 	padding-left: 2em;
 	padding-top: 1.5em;
 	position: fixed;
+}
+
+
+.cntct{
+	max-height: 1em;
+}
+.cntct a{
+	text-decoration: none;
+	color: black;
+
+}
+.cntct a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.cntct img{
+	z-index: -1;
+	position: fixed;
+	bottom: 1em;
+	right: 5em;
+}
+
+.cntct h2{
+	padding-right: 2em;
+	padding-bottom: 1.5em;
+	position: fixed;
+	bottom: 0em;
+	right: 3em;
 }
 
 .vect{
@@ -144,4 +193,10 @@ h4{
 	text-align: center;
 	display: inline-block;
 }
+
+.line{
+	/*display: inline;*/
+}
+
+
 
