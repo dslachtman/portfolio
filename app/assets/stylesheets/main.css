@@ -192,7 +192,7 @@ h4{
 }
 
 #gallery{
-	max-width: 200em;
+	width: 800px;
 	padding: 2em 10em;
 	text-align: center;
 	display: inline-block;
