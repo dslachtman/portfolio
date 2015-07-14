@@ -2,8 +2,22 @@ body{
 	cursor: url(favicon.ico),auto;
 }
 
+#background { 
+    min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 h1{
-	font-family: 'bebas';
+	font-family: 'Lobster Two', cursive;
 	font-size: 6em;
 	text-align: center;
 	margin-bottom: 1em;
@@ -11,7 +25,7 @@ h1{
 }
 
 h2{
-	font-family: 'bebas';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.5em;
 }
 
@@ -21,13 +35,10 @@ h3{
 }
 
 h4{
-	font-family: 'Comfortaa';
+	font-family: 'Montserrat', sans-serif;
 	font-size: .75em;
 }
 
-#background{
-	z-index: -1;
-}
 
 #container{
 	width: 30em;
@@ -44,10 +55,6 @@ h4{
 	text-align: center;
 }
 
-#background{
-	z-index: -1;
-	position: fixed;
-}
 
 #menu{
 	/*display: inline;*/
@@ -196,9 +203,6 @@ h4{
 	display: inline-block;
 }
 
-.line{
-	/*display: inline;*/
-}
 
 
 
