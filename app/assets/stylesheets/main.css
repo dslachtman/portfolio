@@ -24,10 +24,16 @@ h4{
 	font-family: 'Montserrat', sans-serif;
 	font-size: .75em;
 }
-
-#background{
-	z-index: -1;
+#left {
+	position: fixed;
+	left: 0px;
 }
+
+#right{
+	position: fixed;
+	right: 0px;
+}
+
 
 #container{
 	width: 30em;
@@ -42,11 +48,6 @@ h4{
 }
 .title{
 	text-align: center;
-}
-
-#background{
-	z-index: -1;
-	position: fixed;
 }
 
 #menu{
