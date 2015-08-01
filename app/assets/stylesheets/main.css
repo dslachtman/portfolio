@@ -214,30 +214,31 @@ background-color: transparent;
 }
 
 .thumbnail:hover img{
-max-width: 600px;
-border: 6px solid #FFFFFF;
+max-width: 700px;
+max-height: 600px;
 }
 
 .thumbnail span{ /*CSS for enlarged image*/
 position: fixed;
-padding: 5px;
-left: -1000px;
-top:100px;
+margin-top: 20px;
+border: 20px solid rgba(255, 255, 255, .8);
 visibility: hidden;
-color: black;
-text-decoration: none;
+display: block;
+
+
 }
 
 .thumbnail span img{ /*CSS for enlarged image*/
 border-width: 0;
-
+display: block;
 }
 
 .thumbnail:hover span{ /*CSS for enlarged image*/
 visibility: visible;
 top: 0;
-left: 230px; /*position where enlarged image should offset horizontally */
+left: 27%; /*position where enlarged image should offset horizontally */
 z-index: 50;
+display: block;
 }
 
 
