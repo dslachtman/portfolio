@@ -222,6 +222,7 @@ border: 6px solid #FFFFFF;
 position: fixed;
 padding: 5px;
 left: -1000px;
+top:100px;
 visibility: hidden;
 color: black;
 text-decoration: none;
