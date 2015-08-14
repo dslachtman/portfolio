@@ -275,7 +275,8 @@ h2{
 }
 
 #gallery{
-	width:400px;
+	width:414px;
+	margin-left: 90px;
 
 }
 
@@ -288,10 +289,16 @@ h2{
 	visibility: hidden;
 }
 
-#resume{
-	width: 200px;
+#container{
+width: 200px;
+
 }
-}
+
+.thumbnail:hover img,.thumbnail span, .thumbnail:hover span, .thumbnail:hover{ /*CSS for enlarged image*/
+visibility: hidden;
+
+
+}}
 
 /*iphone 6 */
 
@@ -303,22 +310,50 @@ and (max-device-width : 375px) {
 	width:300px;
 
 }
-
-h1{
-	font-size:90px;
+	h1{
+	font-size:50px;
 	margin-bottom: 0px;
+}
+
+h2{
+	font-size: 15px;
+
 }
 
 #left, #right{
 	visibility: hidden;
 }
-
 .item{
 	margin: 0px;
 }
 
-	}
+#gallery{
+	width:400px;
+	margin-left: 75px;
 
+}
+
+.vect{
+	margin: 10px;
+	text-align: center;
+	display: block;
+}
+.cntct img, .home img{
+	visibility: hidden;
+}
+
+#container{
+width: 200px;
+
+}
+
+.thumbnail:hover img,.thumbnail span, .thumbnail:hover span, .thumbnail:hover{ 
+visibility: hidden;
+
+
+
+	}
+}
 /* iphone 5 */
 
 @media only screen 
@@ -332,12 +367,32 @@ and (max-device-width : 320px) {
 }
 
 h1{
-	font-size: 70px;
+	font-size:40px;
 	margin-bottom: 0px;
+}
+
+h2{
+	font-size: 15px;
+
+}
+.cntct img, .home img{
+	visibility: hidden;
 }
 
 #second .item{
 	margin: 0px;
+}
+
+#gallery{
+	width:400px;
+	margin-left: 50px;
+
+}
+
+.vect{
+	margin: 10px;
+	text-align: center;
+	display: block;
 }
 
 .item{
@@ -348,5 +403,13 @@ h1{
 	visibility: hidden;
 }
 
+.thumbnail:hover img,.thumbnail span, .thumbnail:hover span, .thumbnail:hover{
+visibility: hidden;
+	}
+
+#container{
+width: 200px;
+
+}
 
 }
