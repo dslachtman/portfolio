@@ -6,7 +6,7 @@ h1{
 	font-family: 'Lobster Two', cursive;
 	font-size: 100px;
 	text-align: center;
-	margin-bottom: 1em;
+	margin-bottom: 20px;
 	margin: 0 auto;
 }
 
@@ -24,6 +24,8 @@ h4{
 	font-family: 'Montserrat', sans-serif;
 	font-size: .75em;
 }
+
+
 #left {
 	position: fixed;
 	left: 0px;
@@ -51,12 +53,10 @@ h4{
 }
 
 #menu{
-	/*display: inline;*/
 	max-width: 1500px;
-	margin: 1em auto;
+	margin: 2% auto;
 	text-align: center;
-	margin-bottom: 2em;
-	/*position: fixed;*/
+	margin-bottom: 5%;
 
 
 }
@@ -67,13 +67,8 @@ h4{
 	
 }
 
-#first{
+#first, #second{
 	margin: 0 auto;
-}
-
-#second{
-	margin: 0 auto;
-	
 }
 
 #second .item{
@@ -88,8 +83,6 @@ h4{
 
 
 #project_list{
-	/*padding: 5em;*/
-	/*text-align: center;*/
 	display: block;
 }
 
@@ -97,9 +90,7 @@ h4{
 	text-align: center;
 	margin: 4em auto;
 	margin-bottom: 3em;
-	/*display: block;*/
 	width: 25em;
-	/*padding: 6em;*/
 	
 }
 
@@ -205,10 +196,6 @@ position: relative;
 /*Add a height attribute and set to largest image's height to prevent overlaying*/
 }
 
-.thumbnail img{
-
-}
-
 .thumbnail:hover{
 background-color: transparent;
 }
@@ -258,23 +245,13 @@ display: block;
           transform: rotate(360deg);
 }
 
-
-/* media queries 
-
-iphone 6 */
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
-
-#menu{
-	width:300px;
-}
-
-h1{
-
-}
-	}
+/*and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (min-device-width : 320px) 
+and (max-device-width : 568px*/
+/* media queries */
 
 /* iphone 6 + */
 
@@ -285,19 +262,60 @@ and (max-device-width : 736px) {
 #menu{
 	width:380px;
 	}
+
 }
+
+/*iphone 6 */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+
+#menu{
+	width:375px;
+
+}
+
+h1{
+	font-size:90px;
+	margin-bottom: 0px;
+}
+	}
 
 /* iphone 5 */
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
-	#menu{
 
-		width: 280px;
-	}
+#menu{
+	width:300px;
+	margin: 0px;
 
 }
+
+h1{
+	font-size: 70px;
+	margin-bottom: 0px;
+}
+
+#second .item{
+	margin: 0px;
+}
+
+.item{
+	margin: 0px;
+}
+
+#left, #right{
+	visibility: hidden;
+}
+
+ }
+
+}
+
+
 
 
 
