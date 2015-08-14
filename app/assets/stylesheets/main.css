@@ -22,7 +22,7 @@ h3{
 
 h4{
 	font-family: 'Montserrat', sans-serif;
-	font-size: .75em;
+	font-size: 11px;
 }
 
 
@@ -267,6 +267,10 @@ h2{
 
 }
 
+h4{
+	font-size: 10px;
+}
+
 #left, #right{
 	visibility: hidden;
 }
@@ -298,7 +302,13 @@ width: 200px;
 visibility: hidden;
 
 
-}}
+}
+
+#container img{
+	width: 200px;
+}
+
+}
 
 /*iphone 6 */
 
@@ -318,6 +328,10 @@ and (max-device-width : 375px) {
 h2{
 	font-size: 15px;
 
+}
+
+h4{
+	font-size: 8px;
 }
 
 #left, #right{
@@ -349,10 +363,11 @@ width: 200px;
 
 .thumbnail:hover img,.thumbnail span, .thumbnail:hover span, .thumbnail:hover{ 
 visibility: hidden;
-
-
-
 	}
+
+	#container img{
+	width: 200px;
+}
 }
 /* iphone 5 */
 
@@ -374,6 +389,10 @@ h1{
 h2{
 	font-size: 15px;
 
+}
+
+h4{
+	font-size: 8px;
 }
 .cntct img, .home img{
 	visibility: hidden;
@@ -410,6 +429,10 @@ visibility: hidden;
 #container{
 width: 200px;
 
+}
+
+#container img{
+	width: 200px;
 }
 
 }
