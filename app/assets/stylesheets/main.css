@@ -284,7 +284,13 @@ h2{
 	text-align: center;
 	display: block;
 }
+.cntct img, .home img{
+	visibility: hidden;
+}
 
+#resume{
+	width: 200px;
+}
 }
 
 /*iphone 6 */
@@ -310,6 +316,7 @@ h1{
 .item{
 	margin: 0px;
 }
+
 	}
 
 /* iphone 5 */
