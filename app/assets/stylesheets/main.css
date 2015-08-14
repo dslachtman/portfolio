@@ -12,7 +12,7 @@ h1{
 
 h2{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5em;
+	font-size: 25px;
 }
 
 h3{
@@ -245,23 +245,45 @@ display: block;
           transform: rotate(360deg);
 }
 
-/*and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
-and (min-device-width : 320px) 
-and (max-device-width : 568px*/
 /* media queries */
 
 /* iphone 6 + */
 
 @media only screen 
 and (min-device-width : 414px) 
-and (max-device-width : 736px) { 
+and (max-device-width : 414px) { 
 
 #menu{
-	width:380px;
+	width:300px;
 	}
+
+	h1{
+	font-size:50px;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-size: 15px;
+
+}
+
+#left, #right{
+	visibility: hidden;
+}
+.item{
+	margin: 0px;
+}
+
+#gallery{
+	width:400px;
+
+}
+
+.vect{
+	margin: 10px;
+	text-align: center;
+	display: block;
+}
 
 }
 
@@ -269,10 +291,10 @@ and (max-device-width : 736px) {
 
 @media only screen 
 and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
+and (max-device-width : 375px) { 
 
 #menu{
-	width:375px;
+	width:300px;
 
 }
 
@@ -280,13 +302,21 @@ h1{
 	font-size:90px;
 	margin-bottom: 0px;
 }
+
+#left, #right{
+	visibility: hidden;
+}
+
+.item{
+	margin: 0px;
+}
 	}
 
 /* iphone 5 */
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 568px) { 
+and (max-device-width : 320px) { 
 
 #menu{
 	width:300px;
@@ -311,13 +341,5 @@ h1{
 	visibility: hidden;
 }
 
- }
 
 }
-
-
-
-
-
-
-
