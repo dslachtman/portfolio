@@ -20,15 +20,21 @@ h3{
 	font-family: 'Montserrat', sans-serif;
 }
 
+#linkk{
+	margin-top: 20px;
 
+}
 #linkk a{
 	text-decoration: none;
-	color: #000;
+	color: #F71111;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	text-align: center;
 }
 
 #linkk a:hover{
 	text-decoration: none;
-	color: #F71111;
+	color: #9C61C9;
 }
 
 
