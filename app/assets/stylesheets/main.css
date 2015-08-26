@@ -20,6 +20,18 @@ h3{
 	font-family: 'Montserrat', sans-serif;
 }
 
+
+#linkk a{
+	text-decoration: none;
+	color: #000;
+}
+
+#linkk a:hover{
+	text-decoration: none;
+	color: #F71111;
+}
+
+
 h4{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 11px;
