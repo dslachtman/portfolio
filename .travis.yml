@@ -2,3 +2,12 @@ language: ruby
 rvm:
  - 2.6.3
  - jruby
+
+script: bundle exec rake
+
+### Produce Coverage Reports
+
+> Add to your `Gemfile`
+
+```ruby
+gem 'codecov', :require => false, :group => :test

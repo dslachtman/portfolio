@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'sass'
 
-ruby '2.1.0'
+ruby '2.6.3'
 
 gem 'unicorn'
 
